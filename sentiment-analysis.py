@@ -5,10 +5,10 @@ from nltk.tokenize import WordPunctTokenizer
 from textblob import TextBlob
 
 ##Define TWITTER OAUth access token
-ACC_TOKEN = '2803818834-iwRctXdEaffjO56urWODrmQhpok2aSt2FBppB6i'
-ACC_SECRET = '2eiDmvHSCPHQIBOFV818i5qOUCs3M6Xle5MWswD64XklK'
-CONS_KEY = 'z2m6gkZDkTlBMMSWdX0anSr0G'
-CONS_SECRET = 'ABMxoRFAjeXnBUk4KTYMBD8oFsxoozEJP38iwlQjd7IwiRwjOv'
+ACC_TOKEN = 'YORK TOKEN'
+ACC_SECRET = 'YOUR SECRET KEY'
+CONS_KEY = 'KEY HERE'
+CONS_SECRET = 'KEY HERE TOO'
 
 ##authentication function
 def authenticateToTwitter(access_token, access_token_secret, consumer_key, consumer_secret):
